@@ -1,5 +1,5 @@
 import "./App.css";
-import { useQuery, useQueryClient, useSuspenseQuery } from "@tanstack/react-query";
+import { useSuspenseQuery } from "@tanstack/react-query";
 import { trpc } from "./utils/trpc";
 import { Suspense } from "react";
 

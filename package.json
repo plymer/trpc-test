@@ -16,7 +16,10 @@
     "dev:client": "npm run dev -w client",
     "dev:server": "npm run dev -w server",
     "dev": "run-p dev:*",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "preview:client": "npm run preview -w client",
+    "preview:server": "node dist/index.js",
+    "preview": "run-p preview:*"
   },
   "devDependencies": {
     "npm-run-all2": "^8.0.4"
